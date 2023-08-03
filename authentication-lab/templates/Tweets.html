@@ -7,7 +7,8 @@
 <body>
     <ul>
     {% for tweet in tweets%}
-    <li><a href = ""> {{tweet}} </a></li>
+    <li>{{tweets[tweet]["Title"]}}</li>
+    <li>{{tweets[tweet]["Text"]}}</li>
     {% endfor %}
     </ul>
 </body>
