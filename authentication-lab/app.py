@@ -4,13 +4,14 @@ import pyrebase
 
 
 Config = {
-  "apiKey": "AIzaSyAm3lbYU01er9JDLIXxLCWcHdrgmNCRu_0",
-  "authDomain": "sheeple-85021.firebaseapp.com",
-  "projectId": "sheeple-85021",
-  "storageBucket": "sheeple-85021.appspot.com",
-  "messagingSenderId": "630439104792",
-  "appId": "1:630439104792:web:848393d59ae654ced58e6d",
-  "databaseURL" : "https://sheeple-85021-default-rtdb.europe-west1.firebasedatabase.app/",
+  "apiKey": "AIzaSyDOfG2zDoIS-mtrxZVQXF31AScIdyljQig",
+  "authDomain": "siraj-fdae5.firebaseapp.com",
+  "databaseURL": "https://siraj-fdae5-default-rtdb.europe-west1.firebasedatabase.app",
+  "projectId": "siraj-fdae5",
+  "storageBucket": "siraj-fdae5.appspot.com",
+  "messagingSenderId": "786873446936",
+  "appId": "1:786873446936:web:bcec2924cc3965589f896d",
+  "measurementId": "G-06WVCD9491"
 }
 
 firebase = pyrebase.initialize_app(Config)
